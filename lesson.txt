@@ -1,0 +1,23 @@
+File access=========================================
+
+OPEN
+List of All Modes:
+
+r: This mode opens a file in read-only form
+w: This mode opens a file in the write-only form
+r+: This mode opens a file in both reads and writes form
+w+: This mode opens a file in both write and read
+a: This mode opens a file for appending purpose
+a+: This mode opens a file for both appending as well as for reading
+
+READ
+f = open("C:/Users/Test/desktop/Hello.txt", "r")
+print(f.read())
+
+READLINE
+print(ff.readline())
+
+WRITE
+“x”: This is for creating a file. If the file exists with that name, an error will be thrown.
+“a”: This is for appending. If a file doesn’t exist, it will create that file.
+“w”: This will create that file if the file doesn’t exist and then write to it.
